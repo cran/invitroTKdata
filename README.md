@@ -5,6 +5,13 @@
 
 <!-- badges: start -->
 
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/invitroTKdata)](https://cran.r-project.org/package=invitroTKdata)
+[![Active](https://img.shields.io/badge/Status-Active-green.svg)](https://cran.r-project.org/package=invitroTKdata)
+[![Monthly
+Downloads](https://cranlogs.r-pkg.org/badges/last-month/invitroTKdata?color=7BAFD4)](https://cran.r-project.org/package=invitroTKdata?color=7BAFD4)
+[![Total
+Downloads](https://cranlogs.r-pkg.org/badges/grand-total/invitroTKdata)](https://cran.r-project.org/package=invitroTKdata)
+[![DOI](https://zenodo.org/badge/doi/10.32614/CRAN.package.invitroTKdata.svg)](https://dx.doi.org/10.32614/CRAN.package.invitroTKdata)
 <!-- badges: end -->
 
 ## Welcome to the GitHub repository for the invitroTKdata package
@@ -87,11 +94,12 @@ packageVersion("invitroTKdata")
 
 ## Contributors
 
-- Sarah E. Davidson-Fritz (Conceptualization & Lead Package Developer)
+- Caroline Ring (Lead Package Developer & Maintainer)
+- Barbara A. Wetmore (Raw Data Generation & Subject Matter Expert)
+- Sarah E. Davidson-Fritz (Conceptualization & Software Development)
 - John Wambaugh (Conceptualization, Data Processing, & Subject Matter
   Expert)
 - Lindsay Knupp (Software Development)
-- Barbara A. Wetmore (Raw Data Generation & Subject Matter Expert)
 - Anna Kreutz (Raw Data Generation)
 - Marci Smeltz (Raw Data Generation)
 - David Crizer (Raw Data Generation)

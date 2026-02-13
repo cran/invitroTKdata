@@ -1,6 +1,6 @@
 Package: invitroTKdata
-Version: 0.0.1
-Date: 2025-07-17
+Version: 0.0.2
+Date: 2026-01-22
 Title: In Vitro Toxicokinetic Data Processed with the 'invitroTKstats'
         Pipeline
 Description: A collection of datasets containing a variety of in vitro toxicokinetic 
@@ -11,9 +11,11 @@ Description: A collection of datasets containing a variety of in vitro toxicokin
              processed and analyzed with the companion 'invitroTKstats' package. 
 Authors@R: c(
            person("Sarah E.", "Davidson-Fritz", email = "davidsonfritz.sarah@epa.gov", 
-             role = c("aut","cre"), comment = c(ORCID = "0000-0002-2891-9380")),
-           person("John", "Wambaugh", email = "wambaugh.john@epa.gov", 
-             role = c("aut"),comment = c(ORCID = "0000-0002-4024-534X")),
+             role = c("aut"), comment = c(ORCID = "0000-0002-2891-9380")),
+           person("Caroline","Ring",email = "ring.caroline@epa.gov",
+            role = c("cre"), comment = c(ORCID = "0000-0002-0463-1251")),
+           person("John", "Wambaugh",role = c("aut"),
+            comment = c(ORCID = "0000-0002-4024-534X")),
            person("Lindsay","Knupp",role = c("ctb")), 
            person("Barbara A.","Wetmore",role = c("ctb"),
             comment = c(ORCID = "0000-0002-6878-5348")),
@@ -34,9 +36,10 @@ RoxygenNote: 7.3.2
 URL: https://github.com/USEPA/invitroTKdata
 BugReports: https://github.com/USEPA/invitroTKdata/issues
 NeedsCompilation: no
-Packaged: 2025-07-31 13:50:35 UTC; SDAVID02
-Author: Sarah E. Davidson-Fritz [aut, cre] (ORCID:
+Packaged: 2026-02-13 18:17:13 UTC; CRING
+Author: Sarah E. Davidson-Fritz [aut] (ORCID:
     <https://orcid.org/0000-0002-2891-9380>),
+  Caroline Ring [cre] (ORCID: <https://orcid.org/0000-0002-0463-1251>),
   John Wambaugh [aut] (ORCID: <https://orcid.org/0000-0002-4024-534X>),
   Lindsay Knupp [ctb],
   Barbara A. Wetmore [ctb] (ORCID:
@@ -45,6 +48,6 @@ Author: Sarah E. Davidson-Fritz [aut, cre] (ORCID:
   Marci Smeltz [ctb] (ORCID: <https://orcid.org/0000-0001-9723-8696>),
   David Crizer [ctb],
   U.S. Federal Government [cph] (Copyright holder of this package)
-Maintainer: Sarah E. Davidson-Fritz <davidsonfritz.sarah@epa.gov>
+Maintainer: Caroline Ring <ring.caroline@epa.gov>
 Repository: CRAN
-Date/Publication: 2025-08-19 14:50:07 UTC
+Date/Publication: 2026-02-13 19:30:02 UTC
